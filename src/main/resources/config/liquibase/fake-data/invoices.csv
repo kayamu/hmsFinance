@@ -1,0 +1,11 @@
+id;invoice_number;contact_id;contact_address_id;contact_billing_adr_id;cart_id;type;request_date;contact_name;invoice_date;last_tranaction_id;total_cost;total_profit;total_amount;total_taxes;fedaral_taxes_amount;provintional_taxes_amount;discounts_amount;add_on_amount;message;created_date
+1;Investor Licensed programming;75410;27561;23590;58033;PROPOSAL;2022-11-11;black Coordinator secured;2022-11-10;56797;87534;85436;1592;30470;38228;82023;27409;4488;Chief;2022-11-11
+2;Direct Metal;20912;48701;23210;47605;CANCELLED;2022-11-11;override SQL;2022-11-11;43845;44793;43154;43778;59061;19418;44465;93644;7604;Hat Granite;2022-11-11
+3;Dakota Ramp;10995;52250;12385;86251;PAID;2022-11-11;Bacon auxiliary;2022-11-11;85047;18644;40817;12187;15496;9311;4552;423;54280;input Incredible;2022-11-11
+4;Gloves;24999;80515;51806;63072;BILLED;2022-11-10;connect facilitate;2022-11-11;91126;2673;25060;3514;70018;35153;99886;98599;36732;Coordinator Outdoors Moldovan;2022-11-10
+5;Dollar;65359;83502;96386;1990;PAID;2022-11-10;24 indexing Technician;2022-11-10;51238;94115;46335;30363;59102;11288;83691;388;50260;Malta;2022-11-10
+6;Steel Locks;71822;11203;35497;51343;PAID;2022-11-10;viral composite integrate;2022-11-11;91383;19499;91905;24450;19483;37126;49204;10909;65667;Chicken Handmade yellow;2022-11-11
+7;Steel Buckinghamshire COM;33471;20419;38020;75204;BILLED;2022-11-11;parsing;2022-11-11;1682;21124;22920;29623;21992;60873;96200;49886;6077;incubate Cambridgeshire bluetooth;2022-11-11
+8;Account;85409;15730;15597;61906;BILLED;2022-11-10;THX Direct Belarussian;2022-11-11;14609;71548;94332;18752;7238;14574;15169;76617;74023;extensible Borders;2022-11-11
+9;product card;31829;83700;75939;80061;PAID;2022-11-11;copying Moldovan 24/7;2022-11-11;42888;60384;92183;5946;16514;73452;5382;58410;99072;Pound Corporate;2022-11-11
+10;Concrete Loan;22061;67262;36607;92262;PROPOSAL;2022-11-11;transmitting Reactive;2022-11-10;9591;25450;27859;50977;32155;91341;21830;8684;13593;reciprocal Associate JSON;2022-11-10

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity InvoiceDetails.
+    -->
+    <changeSet id="20221111174420-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="invoice_details_id"
+                                 baseTableName="rel_invoice_details__sub_items"
+                                 constraintName="fk_rel_invoice_details__sub_items__invoice_details_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="invoice_details"/>
+
+        <addForeignKeyConstraint baseColumnNames="sub_items_id"
+                                 baseTableName="rel_invoice_details__sub_items"
+                                 constraintName="fk_rel_invoice_details__sub_items__sub_items_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="sub_items"/>
+    </changeSet>
+</databaseChangeLog>

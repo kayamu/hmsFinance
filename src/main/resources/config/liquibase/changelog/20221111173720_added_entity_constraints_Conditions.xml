@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Conditions.
+    -->
+    <changeSet id="20221111173720-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="conditions_id"
+                                 baseTableName="rel_conditions__condition_details"
+                                 constraintName="fk_rel_conditions__condition_details__conditions_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="conditions"/>
+
+        <addForeignKeyConstraint baseColumnNames="condition_details_id"
+                                 baseTableName="rel_conditions__condition_details"
+                                 constraintName="fk_rel_conditions__condition_details__condition_details_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="condition_details"/>
+    </changeSet>
+</databaseChangeLog>
